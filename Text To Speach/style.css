@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgrey;
+}
+.container{
+    width: 500px;
+    background-color: rgb(96, 96, 96);
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container .heading{
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.container .heading span{
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+}
+.container textarea{
+    width: 400px;
+    height: 200px;
+    resize: none;
+    margin-top: 30px;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.container .row{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.container .row select{
+    width: 300px;
+    background: #979797;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding-right: 20px;
+    color: #ffffff;
+}
+.container .row button{
+    width: 100px;
+    margin-right: 50px;
+    height: 30px;
+    cursor: pointer;
+}
